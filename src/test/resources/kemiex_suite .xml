@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="kemiex_suite" verbose="10">
     <test name="FeedbackTests">
-        <parameter name="browser" value="chrome" />
+        <parameter name="browser" value="firefox" />
         <parameter name="localOS" value="macos" />
         <classes>
             <class name="kemiex.selenium.automation.poc.tests.FeedbackInitialStateTests"/>
