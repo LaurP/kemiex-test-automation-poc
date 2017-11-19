@@ -19,7 +19,7 @@ public class  FeedbackInitialStateTests extends BaseTest {
 
 
     @Test
-    public void testRevealFeedbackItems() {
+    public void testRevealFeedbackItems() throws InterruptedException {
 
         goToFeedbackPage();
 
