@@ -8,4 +8,5 @@ Testing the feedback functionality for KEMIEX
     - name="localOS" - value can be "windows", "macos", or "linux" for valid test run (other values are accepted as well, but the borwser will not be correctly set and the tests will not run)
 - In your IDE go to: kemiex-test-automation-poc/src/test/resources, right click on kemiex_suite .xml and select 'Run' to run the tests. Al the tests will be run (as per the current configuration)
 
-Note: 2 tests will fail because of 2 different bugs.
+Note1: 2 tests will fail because of 2 different bugs.
+Note2: make sure you are using the correct language/module/compiler language levels in your local project before running the tests.
